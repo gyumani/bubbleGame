@@ -59,7 +59,9 @@ body {
 }
 
 #shooting_direction {
+  position: absolute;
   font-size: 70px;
+  transform: rotate(0deg);
 }
 
 #shooting_place div:last-child {
