@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: gray;
+}
+
+#main_container {
+  transform: translateX(65%) translateY(10%);
+  width: 800px;
+  height: 800px;
+  background-color: white;
+}
+
+#game_total_display {
+  margin-left: 150px;
+  width: 500px;
+  height: 100%;
+  background-color: antiquewhite;
+}
+
+/* ====================================bubble area========================================== */
+#create_bubble_container {
+  width: 100%;
+  height: 80%;
+  background-color: aquamarine;
+}
+#well {
+  width: 100%;
+  height: 3%;
+  background-color: brown;
+}
+
+/* ===================================player area========================================== */
+#player_container {
+  position: relative;
+  width: 100%;
+  height: 20%;
+  background-color: blanchedalmond;
+  border-top: 1px solid #000000;
+}
+
+#shooting_place {
+  position: absolute;
+  left: 50%;
+  top: 10px;
+  margin-left: -35px;
+  width: 100px;
+  height: 100px;
+}
+
+#wating_place {
+  position: absolute;
+  top: 75px;
+  left: 80px;
+}
+
+#shooting_direction {
+  font-size: 70px;
+}
+
+#shooting_place div:last-child {
+  position: absolute;
+  top: 50px;
+  left: 8px;
+  z-index: 30;
+}
+
+/*=======================bid======================== */
+.bid {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.red {
+  background-color: rgba(100, 0, 0, 0.8);
+}
+.blue {
+  background-color: rgba(0, 0, 100, 0.8);
+}

@@ -5,12 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BubbleGame</title>
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <div id="main_container">
       <div id="game_total_display">
-        <div id="create_bubble_container"></div>
-        <div id="player_container"></div>
+        <div id="create_bubble_container">
+          <div id="well"></div>
+        </div>
+        <div id="player_container">
+          <div id="shooting_place">
+            <div id="shooting_direction">↑</div>
+            <div class="bid red"></div>
+          </div>
+          <div id="wating_place">
+            <div class="bid blue"></div>
+          </div>
+        </div>
       </div>
     </div>
   </body>
